@@ -23,3 +23,21 @@ $("button").click(function(){
      $(this).hide();
 
 });
+
+$(document).ready(function(){
+    
+     $("form").submit(function(event){
+          
+          
+           event.preventDefault();
+
+      $("#p1").text("fnfnfnf");
+
+
+
+          
+     });
+
+
+
+});
